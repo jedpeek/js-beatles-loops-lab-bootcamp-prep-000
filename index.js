@@ -13,6 +13,7 @@ function johnLennonFacts(array){
     arr.push(array[i] + "!!!");
     --i;
   }
+  arr.reverse()
   return arr;
 }
 
